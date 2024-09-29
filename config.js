@@ -21,7 +21,7 @@ global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "wasixml@gmail.com";
 global.location = "Lahore,Pakistan.";
-global.mongodb = process.env.MONGODB_URI || "";
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://nimnadaanuththara62:JKTjroMYE88DmXH6@cluster0.ajet4kc.mongodb.net/";
 global.allowJids = process.env.ALLOW_JID || "923192173398@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
@@ -35,8 +35,8 @@ global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
   "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
-global.devs = "923135673658";
-global.sudo = process.env.SUDO || "923192173398";
+global.devs = "94764984597";
+global.sudo = process.env.SUDO || "94764984597";
 global.owner = process.env.OWNER_NUMBER || "94779164028";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
@@ -69,7 +69,7 @@ module.exports = {
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2😍",
   author: process.env.PACK_AUTHER || "WASO",
-  packname: process.env.PACK_NAME || "♥️",
+  packname: process.env.PACK_NAME || "𝙽𝙸𝙼𝙰",
   botname: process.env.BOT_NAME || "𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2",
   ownername: process.env.OWNER_NAME || "𝙽𝙸𝙼𝙰",
   errorChat: process.env.ERROR_CHAT || "923192173398",
